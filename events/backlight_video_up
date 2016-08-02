@@ -1,0 +1,4 @@
+# /etc/acpi/events/backlight_video_up
+#
+event=video[ /]brightnessup
+action=/etc/acpi/backlight_control.sh up
