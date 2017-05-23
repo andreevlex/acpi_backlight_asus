@@ -29,6 +29,8 @@ acpi_osi=       [HW,ACPI] Modify list of supported OS interface strings
 Сохраняем.
 Пишем команду 
 sudo update-grub
+Для efi
+grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
 
 Перезагружаем систему.
 Если регулировка яркости не заработала будем писать скрипт для перехвата события нажатия Fn+F5 и Fn+F6
